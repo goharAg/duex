@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div.header {
+	height: 80px;
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+}
+
+.transparent-navbar {
+	background: transparent;
+	border: none;
+}
+
+.navbar-default .custom-navigation li a{
+	color: #000;
+	text-transform: uppercase;
+    border-radius: 5px;
+    width: 
+}
+
+.navbar-default .custom-navigation li a:hover{
+	color: #fff;
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	background-color: #3B67B4;	
+}
+
+.navbar-default .custom-navigation li a:active{
+	color: #fff;
+	border-radius: 5px;
+	border-color: red;
+	background-color: red;	
+}
+
+.navbar-brand {
+	margin-top: 12px; 
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	margin-top: 12px; 
+}
+
+.carousel-caption {
+top: 30%; 
+text-align: left; 
+}
+
+}
+.carousel-caption h1 {
+	width: 400px;
+    margin-left: 25%;
+  
+}
+
+.btn {
+	margin-top: 40px;
+	width: 127px;
+	height: 43px;
+	padding-right: 33px; 
+	padding-left: 25px;
+	padding-top: 9px;
+	padding-bottom: 7px;
+	color: #fff;
+	border-radius: 1px;
+	border-color: #3B67B4;
+	background-color: #3B67B4;
+}
+
+.menu {
+}
