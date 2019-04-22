@@ -18,7 +18,7 @@ div.header {
 	color: #000;
 	text-transform: uppercase;
     border-radius: 5px;
-    width: 
+    font-family: Poppins;
 }
 
 .navbar-default .custom-navigation li a:hover{
@@ -68,6 +68,21 @@ text-align: left;
 	border-color: #3B67B4;
 	background-color: #3B67B4;
 }
+.carousel {
+	position: relative;
+}
 
-.menu {
+h1 {
+	font-family: Poppins;
+}
+
+.help {
+	position: absolute;
+	margin-top: -100px;
+	margin-left: 1300px; 
+	color: #fff;
+}
+p {
+	font-size: 16px;
+	font-family: Poppins;
 }
