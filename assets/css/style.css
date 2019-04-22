@@ -118,9 +118,7 @@ p {
   box-shadow: 0px 3px 4px gray;
 }
 
-.btn-primary :hover{
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-}
+
 nav .btn {
 	margin-top:0px;
 }
