@@ -1,11 +1,11 @@
 * {
 	margin: 0;
 	padding: 0;
-    overflow: hidden;
+   /* overflow: hidden;*/
 }
 
 div.header {
-	height: 50px;
+	
 	background-color: #FFFFFF;
 	background-repeat: repeat-x;
 
@@ -107,4 +107,29 @@ p {
 	margin-bottom:10px;
 	margin-left:50px;
 	margin-right:50px;
+}
+
+.navbar {
+
+	background-color: white;
+	margin-bottom: 0px;
+    -moz-box-shadow: 0px 3px 4px gray;
+  -webkit-box-shadow:0px 3px 4px gray;
+  box-shadow: 0px 3px 4px gray;
+}
+
+
+nav .btn {
+	margin-top:0px;
+}
+
+
+.btn:hover {
+  background-color: #3B67B4;
+ box-shadow: 0px 2px 4px gray;
+  color: #fff;
+  
+}
+body { 
+	padding-top: 62px; 
 }
