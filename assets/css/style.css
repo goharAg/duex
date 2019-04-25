@@ -130,6 +130,11 @@ nav .btn {
   color: #fff;
   
 }
+.help{
+	right: 0px;
+bottom: 0px;
+ position:absolute;
+}
 body { 
 	padding-top: 62px; 
 }
