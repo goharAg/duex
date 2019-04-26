@@ -1,38 +1,31 @@
 * {
+    
 	margin: 0;
 	padding: 0;
-   /* overflow: hidden;*/
-}
-
-div.header {
-	
-	background-color: #FFFFFF;
-	background-repeat: repeat-x;
-
 
 }
 
-
+.navbar-fixed-top{
+     background-color: white;
+	-webkit-box-shadow: 8px -16px 13px 19px rgba(0,0,0,0.81);
+	-moz-box-shadow: 8px -16px 13px 19px rgba(0,0,0,0.81);
+	box-shadow: 8px -17px 11px 15px rgba(0,0,0,0.81);
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
 .transparent-navbar {
    	background: transparent;
 	border: none;
 }
-
-
-
 .navbar-default .custom-navigation li a{
-	font-family: Poppins;
-	font-size: 12px;
-	color: #000;
-	text-transform: uppercase;
+	/*font-family: Poppins;*/
+	font-size: 14px;
+	line-height: normal;
+    color: #3A3A3A;
     
 }
-
 .navbar-default .custom-navigation li a:hover{
 	color: #7D7B7B;
 }
-
-
 .navbar-brand {
 	margin: 0;
 }
@@ -41,22 +34,42 @@ div.header {
 	margin-top: 12px; 
 }
 
+.navbar-header {
+	margin-top: 10px; 
+}
+.btn-primary {
+	width: 148px;
+	height: 43px;
+	padding-left: 40px;
+	padding-top: 12px;
+	font-size: 14px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	color: #FFFFFF;
+	border-radius: 1px;
+	border-color: #3B67B4;
+	background-color: #3B67B4;
+}
+
+.item .btn-primary {
+
+	margin-top: 40px;
+}
+
 
 
 .carousel-caption {
-top: 30%; 
+top: 20%; 
 text-align: left; 
 }
 
 }
-.carousel-caption h1 {
+.carousel-caption  {
 	width: 400px;
     margin-left: 25%;
-  
 }
 
-.btn {
-	font-family: Poppins;
+.a {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	margin-top: 40px;
 	width: 148px;
 	height: 43px;
@@ -71,8 +84,8 @@ text-align: left;
 }
 
 
-.btn-primary {
-    font-family: Poppins;
+.a {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	width: 148px;
 	height: 43px;
 	padding-right: 37px; 
@@ -87,15 +100,64 @@ text-align: left;
 
 
 h1  {
-	font-family: Poppins;
+    line-height: 1.6;
+	margin-bottom: 20px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 p {
-	font-family: Poppins;
+	font-size: 18px;
+    line-height: 1.6;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 35px;
+  height: 3px;
+  margin: 3px;
+  text-indent: -999px;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.carousel-indicators .active {
+  display: inline-block;
+  width: 70px;
+  height: 4px;
+  margin: 3px;
+  text-indent: -999px;
+  border: 1px solid #fff;
+}
+
+.carousel-control {
+  top: 50%;
+  width:100px;
+  height: 200px;
+  opacity: 0.2;
+}
+
+
+.carousel-inner  {
+    background-size: 100%;
+}
+
+
+
 .tag
-{
+{file:///C:/Users/User/Desktop/duex/index.html#carousel-example-generic
 	background-color: #C3B4B1;
 	display:inline-block;
 	padding: 5px;
@@ -109,32 +171,7 @@ p {
 	margin-right:50px;
 }
 
-.navbar {
-
-	background-color: white;
-	margin-bottom: 0px;
-    -moz-box-shadow: 0px 3px 4px gray;
-  -webkit-box-shadow:0px 3px 4px gray;
-  box-shadow: 0px 3px 4px gray;
-}
-
-
-nav .btn {
-	margin-top:0px;
-}
-
-
-.btn:hover {
-  background-color: #3B67B4;
- box-shadow: 0px 2px 4px gray;
-  color: #fff;
-  
-}
-.help{
-	right: 0px;
-bottom: 0px;
- position:absolute;
-}
-body { 
-	padding-top: 62px; 
-}
+body {
+	margin-top: 50px;
+} 
+ 
