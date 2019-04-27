@@ -201,16 +201,16 @@ p {
 
 }
 
-.help_more p
+.help_more 
 {
 	font-size:15px;
 }
 
-/*
-:target  {
-    display: block;
+
+.exp:focus + .help_more{
+	display: block;
 }
-*/
+
 
 
 
