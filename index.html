@@ -42,14 +42,14 @@
 		<!-- End header -->
 	
 
-	<div id="myModal" class="modal " role="dialog">
+	<div id="myModal" class="modal" role="dialog">
 			  <div class="modal-dialog">
 
 			    <!-- Modal content-->
 			    <div class="modal-content">
 			      
 
-			      <div class="modal-body d-flex align-items-center">
+			      <div class="modal-body ">
 
 			      	<h3 class="modal-title text-center">Subscribe</h3>
 			        <p class= "text-center">Subscribe to our newsletter and stay updated</p>
@@ -58,25 +58,29 @@
 			        	<img class="img-fluid" alt="Responsive image"  src="assets/images/Group.png">
 			        </div>
 			        <br>
+			    
 
-			       <div class="input-group ">
-				    <input type="text" class="form-control" placeholder="example@gmail.com">
-				    <div class="input-group-addon">
+			    <form >
+			     <div class="input-group success">
+				    <input type="text" class="form-control is-valid" placeholder="example@gmail.com">
+				    <div class="input-group-addon label-success">
 				      <span class="input-group-text">Thank you</span>
 				    </div>
 				  </div>
+				  <br>
 
 
-				   <div class="input-group ">
-				    <input type="text" class="form-control" placeholder="example@gmail.com">
-				    <div class="input-group-addon">
-				      <span class="input-group-text">Thank you</span>
+				   <div class="input-group fail">
+				    <input type="text" class="form-control is-invalid" placeholder="Failed, please try again.">
+				    <div class="input-group-addon label-primary">
+				      <span class="input-group-text ">Get Updates</span>
 				    </div>
 				  </div>
-					 
-					</div>
+					 </form>
+
+			</div>
 						
-			      	</form>
+			    
 
 
 
@@ -127,8 +131,7 @@
 	  		     <p>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry. Lorem Ipsum has been<br>the industry's standard dummy text ever since.</p>
 				 <div class="btn-primary" role="button">Get Started</div>
 		      </div>
-
-		  </div>
+		  	</div>
 
 
 
@@ -139,29 +142,22 @@
 		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
 		    <span class="sr-only">Next</span>
 		  </a>
+
 		</div>
-   
-					<a href="#" tabindex="0" class="exp">
-		
+
+   			<!-- Help button -->
+			<a href="#" tabindex="0" class="exp">		
 				<div class="help" id="help" >
 					<img class="img-fluid" alt="Responsive image"  src="assets/images/help.png">
-					<p>Help</p>
-
-					
+					<p>Help</p>					
 				</div>
-					</a>
-
-
-
-				
-
-				
-
-
+			</a>	
 
 			<div class="help_more" id="help_more">
 				<h4>Help and service</h4>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				<div class="left">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
 				<button class="align-self-center">See more</button>
 			</div>
 		
