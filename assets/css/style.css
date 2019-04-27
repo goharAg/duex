@@ -256,3 +256,10 @@ margin-top: 90px;
 	text-align: left;
 }
 
+.help p {
+	color: #000;
+}
+
+.help_more p, h4  {
+	color: #fff;
+}
