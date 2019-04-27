@@ -37,6 +37,12 @@
 .navbar-header {
 	margin-top: 10px; 
 }
+
+
+.navbar-left {
+	margin-left: 70px;
+}
+
 .btn-primary {
 	width: 148px;
 	height: 43px;
@@ -68,35 +74,6 @@ text-align: left;
     margin-left: 25%;
 }
 
-.a {
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-	margin-top: 40px;
-	width: 148px;
-	height: 43px;
-	padding-right: 23px; 
-	padding-left: 23px;
-	padding-top: 9px;
-	padding-bottom: 7px;
-	color: #fff;
-	border-radius: 1px;
-	border-color: #3B67B4;
-	background-color: #3B67B4;
-}
-
-
-.a {
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-	width: 148px;
-	height: 43px;
-	padding-right: 37px; 
-	padding-left: 38px;
-	padding-top: 10px;
-	padding-bottom: 6px;
-	color: #fff;
-	border-radius: 1px;
-	border-color: #3B67B4;
-	background-color: #3B67B4;
-}
 
 
 h1  {
