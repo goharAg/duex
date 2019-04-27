@@ -211,9 +211,7 @@ p {
 {
 	font-size:15px;
 }
-.left{
-	text-align: left;
-}
+
 
 
 
@@ -232,3 +230,25 @@ p {
 	background-color: gray;
 } 
  
+
+.carousel-control {
+  top: 40%;
+  width:100px;
+  height: 200px;
+  opacity: 0.2;
+}
+
+.carousel-control:hover {
+opacity: 0.5;
+}
+
+.carousel-control:focus {
+	opacity: 0.5;
+}
+
+.fa {
+font-size: 30px;	
+margin-top: 90px;
+}
+
+}
