@@ -143,10 +143,14 @@ p {
 }
 
 .carousel-control {
-  top: 20%;
+  top: 40%;
   width:100px;
   height: 200px;
   opacity: 0.2;
+}
+
+.carousel-control:hover {
+opacity: 0.5;
 }
 
 
@@ -221,3 +225,15 @@ p {
 	background-color: gray;
 } 
  
+.carousel-inner>.item {
+ -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+    -o-transition: -o-transform 1.2s ease-in-out !important;
+    transition: transform 1.2s ease-in-out !important;
+}
+
+.fa {
+font-size: 30px;	
+margin-top: 90px;
+}
+
+
