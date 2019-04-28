@@ -108,6 +108,9 @@ p {
   text-indent: -999px;
   background-color: #fff;
   border: 1px solid #fff;
+  -webkit-transition: width 2s, height 3s; 
+    transition: width 2s, height 3s;
+
 }
 
 .carousel-indicators .active {
@@ -240,3 +243,5 @@ margin-top: 90px;
 .help_more p, h4  {
 	color: #fff;
 }
+
+
