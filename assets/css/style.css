@@ -78,6 +78,7 @@
 
 
 
+
 .carousel-caption {
 top: 20%; 
 text-align: left; 
@@ -92,13 +93,14 @@ text-align: left;
 
 
 h1  {
+	font-size: 3vw;
     line-height: 1.6;
 	margin-bottom: 20px;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 p {
-	font-size: 18px;
+	font-size: 2vw;
     line-height: 1.6;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
