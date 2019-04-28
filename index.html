@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Due-X</title>
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">		
 		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
 	<body>
 		<div class="header navbar-fixed-top ">
@@ -25,7 +25,7 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-left custom-navigation">
-							<li><a href="about.html">About Us</a></li>
+							<li><a href="#about">About Us</a></li>
 							<li><a href="#">Services</a></li>
 							<li><a href="#">Portfolio</a></li>
 							<li><a href="#">Contact</a></li>
@@ -41,61 +41,56 @@
 		</div>
 		<!-- End header -->
 	
-
-	<div id="myModal" class="modal" role="dialog">
-			  <div class="modal-dialog">
-
-			    <!-- Modal content-->
-			    <div class="modal-content">
-			      
-
-			      <div class="modal-body ">
-
-			      	<h3 class="modal-title text-center">Subscribe</h3>
-			        <p class= "text-center">Subscribe to our newsletter and stay updated</p>
-
-			        <div class="text-center">
-			        	<img class="img-fluid" alt="Responsive image"  src="assets/images/Group.png">
-			        </div>
-			        <br>
-			    
-
-			    <form >
-			     <div class="input-group success">
-				    <input type="text" class="form-control is-valid" placeholder="example@gmail.com">
-				    <div class="input-group-addon label-success">
-				      <span class="input-group-text">Thank you</span>
-				    </div>
-				  </div>
-				  <br>
-
-
-				   <div class="input-group fail">
-				    <input type="text" class="form-control is-invalid" placeholder="Failed, please try again.">
-				    <div class="input-group-addon label-primary">
-				      <span class="input-group-text ">Get Updates</span>
-				    </div>
-				  </div>
-					 </form>
-
+		<div id="myModal" class="modal" role="dialog">
+			<div class="modal-dialog">
+			  <!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-body ">
+						<h3 class="modal-title text-center">Subscribe</h3>
+						<p class= "text-center">Subscribe to our newsletter and stay updated</p>
+						<div class="text-center">
+							<img class="img-fluid" alt="Responsive image"  src="assets/images/Group.png">
+						</div>
+						<br>
+						<form >
+							<div class="input-group success">
+								<input type="text" class="form-control is-valid" placeholder="example@gmail.com">
+								<div class="input-group-addon label-success">
+									<span class="input-group-text">Thank you</span>
+								</div>
+							</div>
+							<br>
+							<div class="input-group fail">
+								<input type="text" class="form-control is-invalid" placeholder="Failed, please try again.">
+								<div class="input-group-addon label-primary">
+									<span class="input-group-text ">Get Updates</span>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
 			</div>
-						
-			    
+		</div>
+		<!-- End Modal-->
 
-
-
-
-				    </div>
-			      
-			    </div>
-
-			  </div>
+		<div id="help">
+			<a href="#" tabindex="0" class="exp">		
+				<div class="help">
+					<img class="img-fluid" alt="Responsive image"  src="assets/images/help.png">
+					<p>Help</p>					
+				</div>
+			</a>	
+			<div class="help_more" id="help_more">
+				<h4>Help and Support</h4>
+				<div class="left">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+				<button class="align-self-center">See more</button>
 			</div>
-
-
-
+		</div>
+		<!-- End Help button -->
 	
-		<div id="carousel-example-generic"  class="carousel slide section" data-ride="carousel">
+		<div id="carousel-example-generic"  class="carousel slide carousel-section" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators" >
 		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -107,72 +102,76 @@
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
 		    <!--  <img src="assets/images/page.png"   alt="Responsive image">-->
-		      <div class="carousel-caption">
-		         <h1>Create value of business<br>Automate & Control</h1>
-		         <p>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry. Lorem Ipsum has been<br>the industry's standard dummy text ever since.</p>
-				 <div class="btn-primary" role="button">Get Started</div>
-		      </div>
-
+					<div class="carousel-caption">
+						<h1>Create value of business<br>Automate & Control</h1>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry. Lorem Ipsum has been<br>the industry's standard dummy text ever since.
+						</p>
+						<div class="btn-primary" role="button">Get Started</div>
+					</div>
 		    </div>
-
 		    <div class="item">
 		     <!-- <img src="assets/images/page.png"   alt="Responsive image">-->
-		      <div class="carousel-caption">
-		         <h1>Create value of business<br>Automate & Control</h1>
-		         <p>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry. Lorem Ipsum has been<br>the industry's standard dummy text ever since.</p>
-				 <div class="btn-primary" role="button">Get Started</div>
-		      </div>
+					<div class="carousel-caption">
+						<h1>Create value of business<br>Automate & Control</h1>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry. Lorem Ipsum has been<br>the industry's standard dummy text ever since.
+						</p>
+						<div class="btn-primary" role="button">Get Started</div>
+					</div>
 		    </div>
-
 		    <div class="item">
 		   <!--   <img src="assets/images/page.png"  alt="Responsive image"> -->
 		      <div class="carousel-caption">
-		         <h1>Create value of business<br>Automate & Control</h1>
-	  		     <p>Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry. Lorem Ipsum has been<br>the industry's standard dummy text ever since.</p>
-				 <div class="btn-primary" role="button">Get Started</div>
-		      </div>
+		        <h1>Create value of business<br>Automate & Control</h1>
+	  		    <p>
+							 Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry. Lorem Ipsum has been<br>the industry's standard dummy text ever since.
+						</p>
+					 <div class="btn-primary" role="button">Get Started</div>
+		    	</div>
 		  	</div>
-
-
-
-		  <!-- Control-->
-		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-		  	<i class="fa fa-chevron-left"></i>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-		  <i class="fa fa-chevron-right"></i>
-		    <span class="sr-only">Next</span>
-		  </a>
-
-		</div>
-
-   			<!-- Help button -->
-			<a href="#" tabindex="0" class="exp">		
-				<div class="help" id="help" >
-					<img class="img-fluid" alt="Responsive image"  src="assets/images/help.png">
-					<p>Help</p>					
-				</div>
-			</a>	
-
-			<div class="help_more" id="help_more">
-				<h4>Help and Support</h4>
-				<div class="left">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				</div>
-				<button class="align-self-center">See more</button>
+				<!-- Control-->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<i class="fa fa-chevron-left"></i>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<i class="fa fa-chevron-right"></i>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
-		
-			
-					
- 
+		</div>	
+		<!-- End Carousel-->
 
-	
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="about-content">
+							<h2>About us</h2>
+							<article>
+								<p>
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+									industry's standard dummy text ever since and typesetting industry. Lorem Ipsum has been.
+								</p>
+								<p>
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+									industry's standard dummy text ever since.
+								</p>
+								<article>
+									</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="about-img"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End About-->
 
-                  
-
-
-	<script src="assets/js/jquery-3.3.1.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/jquery-3.3.1.min.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/index.js"></script>
 </body>
 </html>

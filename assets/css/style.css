@@ -1,31 +1,35 @@
 * {
-    
 	margin: 0;
 	padding: 0;
+}
 
+body{
+	scroll-behavior: smooth;
 }
 
 .navbar-fixed-top{
-     background-color: white;
+  background-color: white;
 	-webkit-box-shadow: 8px -16px 13px 19px rgba(0,0,0,0.81);
 	-moz-box-shadow: 8px -16px 13px 19px rgba(0,0,0,0.81);
 	box-shadow: 8px -17px 11px 15px rgba(0,0,0,0.81);
 	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
+
 .transparent-navbar {
    	background: transparent;
 	border: none;
 }
+
 .navbar-default .custom-navigation li a{
-	/*font-family: Poppins;*/
 	font-size: 14px;
 	line-height: normal;
     color: #3A3A3A;
-    
 }
+
 .navbar-default .custom-navigation li a:hover{
 	color: #7D7B7B;
 }
+
 .navbar-brand {
 	margin: 0;
 }
@@ -38,7 +42,6 @@
 	margin-top: 10px; 
 }
 
-
 .navbar-left {
 	margin-left: 70px;
 }
@@ -49,7 +52,7 @@
 	padding-left: 40px;
 	padding-top: 12px;
 	font-size: 14px;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	color: #FFFFFF;
 	border-radius: 1px;
 	border-color: #3B67B4;
@@ -57,54 +60,46 @@
 }
 
 .item .btn-primary {
-
 	margin-top: 40px;
 }
+
 .item{
 	background-image: url("../images/page.png");
 	height: 100%;   
 	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-    position: absolute;
-    right: 0;
-    top: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
-.item img{
 
+.item img{
 	height:100%;
 }
 
-
-
-
-
 .carousel-caption {
-top: 20%; 
-text-align: left; 
+	top: 20%; 
+	text-align: left; 
 }
 
-}
 .carousel-caption  {
 	width: 400px;
-    margin-left: 25%;
+  margin-left: 25%;
 }
 
-
-
 h1  {
-	font-size: 3vw;
-    line-height: 1.6;
+	/* font-size: 3vw; */
+	line-height: 1.6;
 	margin-bottom: 20px;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 p {
-	font-size: 2vw;
+		/* font-size: 2vw; */
     line-height: 1.6;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
-
+	}
 
 .carousel-indicators {
   position: absolute;
@@ -117,6 +112,7 @@ p {
   text-align: center;
   list-style: none;
 }
+
 .carousel-indicators li {
   display: inline-block;
   width: 35px;
@@ -126,8 +122,7 @@ p {
   background-color: #fff;
   border: 1px solid #fff;
   -webkit-transition: width 2s, height 3s; 
-    transition: width 2s, height 3s;
-
+  transition: width 2s, height 3s;
 }
 
 .carousel-indicators .active {
@@ -146,40 +141,38 @@ p {
   opacity: 0.2;
 }
 
-
 .carousel-inner  {
-    background-size: 100%;
-    height:100%;
+	background-size: 100%;
+	height:100%;
 }
 
-
-
-.tag
-{file:///C:/Users/User/Desktop/duex/index.html#carousel-example-generic
+.tag {
 	background-color: #C3B4B1;
 	display:inline-block;
 	padding: 5px;
-
 }
 
 .modal-body{
-	margin-top:10px;
-	margin-bottom:10px;
-	margin-left:50px;
-	margin-right:50px;
-
+	margin: 10px 50px;
 }
 
 .modal{
 	padding-top: 10%;
 }
 
-.section{
+.carousel-section{
 	width:100%;
-	height:auto;
-	position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
+	height:100vh;
 }
+
+#help{
+	position: fixed; 
+	bottom: 0; 
+	right: 0;
+	z-index: 1;
+	text-align: center
+}
+
 .help{
 	display:block;
 	position: absolute;
@@ -194,40 +187,21 @@ p {
 	position: absolute;
 	right: 0px;
 	bottom: 0px;
-	margin-right: 5px;
-	margin-bottom: 5px;
 	overflow:auto;
 	background-color: #3B67B4;
-	width:10%;
-    word-wrap: break-word;
-    text-align:center;
-    font-size:15px;
-    padding:8px;
+	width:125px;
+	word-wrap: break-word;
+	text-align:center;
+	font-size:15px;
+	padding:8px;
 
 }
-.help_more p
-{
+.help_more p {
 	font-size:15px;
 }
-
-
-
-
-
 .exp:focus + .help_more{
 	display: block;
-}
-
-
-
-
- body {
-	height:100%;
-	margin-top: 50px;
-	overflow: hidden;
-	background-color: gray;
 } 
- 
 
 .carousel-control {
   top: 40%;
@@ -245,10 +219,9 @@ opacity: 0.5;
 }
 
 .fa {
-font-size: 30px;	
-margin-top: 90px;
+	font-size: 30px;	
+	margin-top: 90px;
 }
-
 
 .help_more .left {
 	text-align: left;
@@ -262,4 +235,29 @@ margin-top: 90px;
 	color: #fff;
 }
 
-
+#about{
+  padding: 45px 0;
+	color: #535353;
+}
+#about h2{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 55px;
+}
+#about article{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+/* height: (from js) */
+.about-img{
+  background-image: url("../images/about.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+	background-position: center;
+	margin-top: 70px;
+}
