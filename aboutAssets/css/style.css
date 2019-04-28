@@ -1,0 +1,109 @@
+div.header {
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+}
+.transparent-navbar {
+   	background: transparent;
+	border: none;
+}
+.navbar-default .custom-navigation li a{
+	font-family: Poppins;
+	font-size: 12px;
+	color: #000;
+	text-transform: uppercase;
+}
+.navbar-default .custom-navigation li a:hover{
+	color: #7D7B7B;
+}
+.navbar-brand {
+	margin: 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	margin-top: 12px; 
+}
+.btn {
+	font-family: Poppins;
+	margin-top: 40px;
+	width: 148px;
+	height: 43px;
+	padding-right: 23px; 
+	padding-left: 23px;
+	padding-top: 9px;
+	padding-bottom: 7px;
+	color: #fff;
+	border-radius: 1px;
+	border-color: #3B67B4;
+	background-color: #3B67B4;
+}
+.btn-primary {
+	font-family: Poppins;
+	width: 148px;
+	height: 43px;
+	padding-right: 37px; 
+	padding-left: 38px;
+	padding-top: 10px;
+	padding-bottom: 6px;
+	color: #fff;
+	border-radius: 1px;
+	border-color: #3B67B4;
+	background-color: #3B67B4;
+}
+.tag{
+	background-color: #C3B4B1;
+	display:inline-block;
+	padding: 5px;
+}
+.modal-body {
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:50px;
+	margin-right:50px;
+}
+.navbar {
+	background-color: white;
+	margin-bottom: 0px;
+	-moz-box-shadow: 0px 3px 4px gray;
+  -webkit-box-shadow:0px 3px 4px gray;
+  box-shadow: 0px 3px 4px gray;
+}
+nav .btn {
+	margin-top:0px;
+}
+.btn:hover {
+  background-color: #3B67B4;
+ 	box-shadow: 0px 2px 4px gray;
+  color: #fff;
+}
+.help{
+	right: 0px;
+	bottom: 0px;
+  position:absolute;
+}
+
+#about{
+  padding: 115px 0;
+  color: #535353;
+}
+#about h2{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 55px;
+}
+#about article{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+/* height: (from js) */
+.about-img{
+  background-image: url("../images/about.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+	background-position: center;
+	margin-top: 40px;
+}
+ 
