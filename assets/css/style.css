@@ -60,6 +60,21 @@
 
 	margin-top: 40px;
 }
+.item{
+	background-image: url("../images/page.png");
+	height: 100%;   
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.item img{
+
+	height:100%;
+}
+
 
 
 
@@ -132,6 +147,7 @@ p {
 
 .carousel-inner  {
     background-size: 100%;
+    height:100%;
 }
 
 
@@ -159,7 +175,7 @@ p {
 .section{
 	width:100%;
 	height:auto;
-	 position: absolute;
+	position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
 }
 .help{
