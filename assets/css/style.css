@@ -83,7 +83,22 @@ body{
 	position: absolute;
 	right: 0;
 	top: 0;
+
 }
+
+
+.item::after {
+background-color:  rgba(57, 92, 154, 0.7);
+content: "";
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+opacity: 0.4;
+}
+
+
 
 .item img{
 	height:100%;
@@ -305,6 +320,7 @@ opacity: 0.5;
 }
 
 
+
 .help img {
 	cursor: pointer;
 }
@@ -316,6 +332,7 @@ opacity: 0.5;
 .fail .label-primary{
 	box-shadow: 0px 2px 6px #5cb85c;
 }
+
 
 .success input, .fail input{
 	background-color: #F2F2F2;
