@@ -203,7 +203,8 @@ p {
 	bottom: 0px;
 	overflow:auto;
 	background-color: #3B67B4;
-	width:125px;
+	width:200px;
+	height: 300px;
 	word-wrap: break-word;
 	text-align:center;
 	font-size:15px;
@@ -242,7 +243,18 @@ opacity: 0.5;
 }
 
 .help p {
-	color: #000;
+	color: #000;	
+
+}
+
+
+.help_more p{
+	font-size: 15px;
+}
+
+.help_more h5{
+	font-weight: bold;
+	color: #fff;
 }
 
 .help_more p, h4  {
@@ -279,7 +291,8 @@ opacity: 0.5;
 
 
 
-.cyrcle {
+.circle {
+	display: block;
 	position: relative;
 	width: 20px;
 	height: 20px;
@@ -296,4 +309,10 @@ opacity: 0.5;
 	cursor: pointer;
 }
 
+.success .label-success{
+	box-shadow: 0px 2px 6px #5cb85c;
+}
 
+.fail .label-primary{
+	box-shadow: 0px 2px 6px #5cb85c;
+}
