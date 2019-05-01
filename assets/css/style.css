@@ -316,3 +316,11 @@ opacity: 0.5;
 .fail .label-primary{
 	box-shadow: 0px 2px 6px #5cb85c;
 }
+
+.success input, .fail input{
+	background-color: #F2F2F2;
+	border-style:solid;
+}
+input:focus{
+	outline: none;
+}
