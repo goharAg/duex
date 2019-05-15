@@ -1,111 +1,112 @@
 const portfolioTabData = {
   "Branding":[
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText":"branding"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "branding"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "branding"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "branding"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "branding"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "branding"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "branding"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "branding"} 
   ],
 
   "UI/UX Design":[
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "UI/UX Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "UI/UX Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "UI/UX Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "UI/UX Design"}    
   ],
 
   "Graphic Design":[
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "graphic design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "graphic design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "graphic design"}  
   ],
 
   "Motion Design":[
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Motion Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Motion Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Motion Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Motion Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Motion Design"},  
   ],
 
   "3D Design":[
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "3D Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
     "tabText": "3D Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "3D Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "3D Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "3D Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "3D Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "3D Design"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "3D Design"},  
   ],
 
   "Web Development":[
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Web Development"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Web Development"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Web Development"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Web Development"},  
   ],
 
   "Mobile Development":[
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Mobile Development"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Mobile Development"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Mobile Development"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Mobile Development"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Mobile Development"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Mobile Development"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Mobile Development"},
-    {"tabImage":"./assets/images/portfolio.png",
+    {"tabImage":"./assets/images/portfolio/portfolio.png",
       "tabText": "Mobile Development"},  
   ]
 };
 $( document ).ready(function() {
   
   clickMenuLinks();
-  setHelpWindowPosition();
+  setHelpBtnPosition();
   setParallaxBgPadding();
   aboutAnim();
+  ServicesItemAnim();
   renderPortfolioTabs();
   portfolioTabAnim();
   setPortfolioTabModalData();
@@ -134,12 +135,16 @@ $( document ).ready(function() {
   /**
    * help winndow position by phone
   */  
-  function setHelpWindowPosition(){
-    const helpWindow = document.querySelector('.help_more');
+  function setHelpBtnPosition(){
+    const helpBtn = document.querySelector('#help');
+    const helpWindow = document.querySelector('.helpWindow');
     const parallaxWrapper = document.querySelector('#parallax-wrapper');
 
     if(parallaxWrapper.offsetWidth - parallaxWrapper.clientWidth === 0){
-      helpWindow.style.right = 0+'px';
+      helpBtn.style.right = 10+'px';
+      helpBtn.style.bottom = 2+'px';
+      helpWindow.style.right = -10+'px';
+      helpWindow.style.bottom = -2+'px';
     }
   };
 
@@ -184,6 +189,39 @@ $( document ).ready(function() {
   };
 
   /**
+   * services item hover rotation,
+   * stop services item rotation when srvice is checked
+  */
+  function ServicesItemAnim(){
+    const servicesItem = $('.services-item');
+
+    servicesItem.mouseenter(function(){
+      this.querySelector('.card').style.transform = 'rotateY(180deg)';
+      this.style.transition = '.3s';
+      this.style.borderBottom = '8px solid #337ab7';
+    });
+
+    servicesItem.mouseleave(function(){
+      this.querySelector('.card').style.transform = 'rotateY(0)';
+      this.style.transition = '.3s';
+      this.style.borderBottomWidth = '0';
+      const checkboxes = this.getElementsByTagName('input');
+
+      for(let i = 0; i < checkboxes.length; i ++){
+        if(checkboxes[i].checked === true){
+          this.querySelector('.card').style.transform = 'rotateY(180deg)';
+          this.style.borderBottom = '8px solid #337ab7';
+          break;
+        } else {
+          this.querySelector('.card').style.transform = 'rotateY(0)';
+          this.style.transition = '.3s';
+          this.style.borderBottomWidth = '0';
+        }
+      }
+    });
+  };
+
+  /**
    * render portfolio tabs data
   */
   function renderPortfolioTabs(){
@@ -210,13 +248,15 @@ $( document ).ready(function() {
         } )
       }
       </div>`
-    } );      
+    } ); 
+    /* remove  */
+    const listIem = document.querySelectorAll('.list-item');
+    for(let i = 0; i < listIem.length; i ++){
+      listIem[i].nextSibling.remove();
+    }
   };
 
-  const listIem = document.querySelectorAll('.list-item');
-  for(let i = 0; i < listIem.length; i ++){
-    listIem[i].nextSibling.remove();
-  }
+  
 
   /**
    * set portfolio tabs modal 
@@ -251,7 +291,19 @@ $( document ).ready(function() {
   };
 
 
+
+  // const contact = document.getElementById('about');
+  // const h1 = document.querySelector('h1');
+  // const pw = document.getElementById('parallax-wrapper');
+  // console.log( window.innerHeight );
+  
+  // console.log( h1.getBoundingClientRect().y );
  
+  // pw.onscroll = function(){
+  //   console.log( contact.getBoundingClientRect().y );
+  // }
+
+
   
 });
 

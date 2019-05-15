@@ -4,9 +4,9 @@
 		<meta charset="UTF-8">
 		<title>Due-X</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">		
-		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css">		
+		<link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
+		<link rel="stylesheet" href="./assets/css/style.css">
 	</head>
 	<body>	
 		<div id="subscribe-modal" class="modal fade" role="dialog">
@@ -21,12 +21,12 @@
 						</div>
 						<br>
 						<form class="subscribe_form">
-							<div class="input-group success">
+							<!-- <div class="input-group success">
 								<input type="text" class="form-control is-valid" placeholder="example@gmail.com">
 								<div class="input-group-addon label-success">
 									<span class="input-group-text">Thank you</span>
 								</div>
-							</div>
+							</div> -->
 							<br>
 							<div class="input-group fail">
 								<input type="text" class="form-control is-invalid" placeholder="Failed, please try again.">
@@ -60,30 +60,24 @@
 		<!-- End portfolio modal-->
 
 		<div id="help">
-			<a href="#" tabindex="0" class="exp">		
-				<div class="help">
-					<img class="img-fluid" alt="Responsive image"  src="assets/images/help.png">
-					<p>Help</p>					
-				</div>
-				<div class="circle"></div>
+			<a href="#" tabindex="0" class="help-btn">	
+				<span class="message"><i class="far fa-comment-alt"></i></span>
+				<span class="dot"><i class="fas fa-circle"></i></span>
 			</a>	
-
-			<div class="help_more" id="help_more">
+			<div class="help-window">
 				<h4>Help and Support</h4>
-				<div class="left">
-					<h5>Lorem Ipsum</h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<h5>Lorem Ipsum</h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				</div>
-				<button class="align-self-center">See more</button>
+				<h5>Lorem Ipsum</h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				<h5>Lorem Ipsum</h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				<button>See more</button>
 			</div>
 			
 	  </div>
 		<!-- End Help button -->
 
 		<div id="parallax-wrapper">
-			<div class="header navbar-fixed-top ">
+			<header class="header navbar-fixed-top ">
 				<nav class="navbar navbar-default navbar-fixed-top">
 					<div class="container">
 						<!-- Brand and toggle get grouped for better mobile display -->
@@ -112,7 +106,7 @@
 					</div>
 					<!-- /.container -->
 				</nav>
-			</div>
+			</header>
 			<!-- End header -->
 
 			<div class="parallax-bg">
@@ -193,13 +187,13 @@
 							</div>
 							<div class="col-sm-6">
 								<div class="about-img">
-									<img src="./assets/images/cube-1-shadow.png" class="cube-1-shadow">
-									<img src="./assets/images/cube-1.png" class="cube-1">
-									<img src="./assets/images/note.png" class="note">							
-									<img src="./assets/images/cube-2-shadow.png" class="cube-2-shadow">
-									<img src="./assets/images/cube-2.png" class="cube-2">
-									<img src="./assets/images/cube-3-shadow.png" class="cube-3-shadow">
-									<img src="./assets/images/cube-3.png" class="cube-3">
+									<img src="./assets/images/about/cube-1-shadow.png" class="cube-1-shadow">
+									<img src="./assets/images/about/cube-1.png" class="cube-1">
+									<img src="./assets/images/about/note.png" class="note">							
+									<img src="./assets/images/about/cube-2-shadow.png" class="cube-2-shadow">
+									<img src="./assets/images/about/cube-2.png" class="cube-2">
+									<img src="./assets/images/about/cube-3-shadow.png" class="cube-3-shadow">
+									<img src="./assets/images/about/cube-3.png" class="cube-3">
 								</div>
 							</div>
 						</div>
@@ -212,7 +206,7 @@
 			<div class="parallax-bg">
 				<div class="container">
 					<section id="services">
-						<h2>services</h2>
+						<h2>Services</h2>
 						<p class="services-content">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid iure a reiciendis assumenda? Laborum dolorem sint placeat commodi quaerat!
 						</p>
@@ -360,7 +354,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div id="range-container" style="background: lime; height:100px; margin-bottom: 300px">
+						<!-- <div id="range-container" style="background: lime; height:100px;">
 							<form>
 								<input type="range">
 								<input type="range">
@@ -376,7 +370,7 @@
 			<div class="parallax-desc">
 				<div class="container">
 					<section id="portfolio">
-						<h2>portfolio</h2>
+						<h2>Portfolio</h2>
 						<p class="portfolio-content">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid iure a reiciendis assumenda? Laborum dolorem sint placeat commodi quaerat!
 						</p>
@@ -408,18 +402,20 @@
 				<section id="contact">
 					<section class="contact_info">
 						<div class="container">
-							<div class="col-md-7 col-sm-7 col-xs-12">
-								<h1>Contact Us</h1>
+							<div class="col-xs-7   left_section">
+								<h2>Contact Us</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nobis quo, tempora repellat? Voluptates iure architecto assumenda, optio magnam debitis eos libero, sequi quo! Repellat, nihil expedita quae rem iste.</p>
 								<h3>Need Help?</h3>
-								<p>info@due-x.com</p>
+								<address>info@due-x.com</address>
 								<h3>Call us</h3>
-								<p>+374 12 345 678</p>
+								<address>+374 12 345 678</address>
 								<h3>Visit us</h3>
-								<p>Armenia, Yerevan, Sasuntsi Davit 2rd square</p>
-								<p>Armenia, Gyumri, Street name</p>
+								<address>
+									<p>Armenia, Yerevan, Sasuntsi Davit 2rd square</p>
+									<p>Armenia, Gyumri, Street name</p>
+								</address>
 							</div>
-							<div class="col-md-5 col-sm-5 col-xs-12 right_section">
+							<div class="col-xs-5   right_section">
 								<form>
 									<div class="form-group">
 										<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
@@ -428,21 +424,21 @@
 										<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="E-mail">
 									</div>
 									<div class="form-group">
-										<textarea class="form-control textarea" id="exampleFormControlTextarea1" rows="3" placeholder="Message..."></textarea>
+										<textarea class="form-control textarea" id="exampleFormControlTextarea1" rows="5" cols="10" placeholder="Message ..."></textarea>
 									</div>
 									<button type="button" class="btn btn-default">Submit</button>
 								</form>
 							</div>
 						</div>
 					</section>
-					<section>
+					<footer>
 						<div class="first-footer">
 							<div class="container">
-								<div class="col-md-3">
+								<div class="col-sm-3 col-xs-12 ">
 									<h3>Due-X</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec .</p>
+									<p class="foot-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec .</p>
 								</div>
-								<div class="col-md-2 top">
+								<div class="col-sm-2 col-xs-4  top" class="foot-links">
 									<h4>Navigation</h4>
 									<ul>
 										<li><a href="#"> About Us</a></li>
@@ -451,7 +447,7 @@
 										<li><a href="#"> Products</a></li>
 									</ul>
 								</div>
-								<div class="col-md-2 top">
+								<div class="col-sm-2 col-xs-4  top" class="foot-links">
 									<h4>About Us</h4>
 									<ul>
 										<li><a href="#"> Who we are</a></li>
@@ -460,7 +456,7 @@
 										<li><a href="#"> Investors</a></li>
 									</ul>
 								</div>
-								<div class="col-md-2 top">
+								<div class="col-sm-2 col-xs-4  top" class="foot-links">
 									<h4>Support</h4>
 									<ul>
 										<li><a href="#"> Documentation</a></li>
@@ -468,33 +464,31 @@
 										<li><a href="#"> Get in Touch</a></li>
 									</ul>
 								</div>
-								<div class="col-md-3 top">
+								<div class="col-sm-3 col-xs-12  top">
 									<h4>Subscribe to our newsletter</h4>
-									<ul>
+									<ul class="foot-info">
 										<li><a href="#"> Receive our latest news and promotions in your inbox!</a></li>
 									</ul>
 										<div id="input_container">
 											<input class="form-control subscr_form my-0 py-1" type="text" id="input" placeholder="Your email address">
-											<a href="#" class="arrow-right"><img src="assets/images/arrow_forward.png" id="input_img"></a>
+											<a href="#" class="arrow-right"><i class="fas fa-arrow-right"></i></a>
 										</div>
-									</div>
 								</div>
 							</div>
-							<div class="footer">
-								<div class="container">
-									<div class="row">
-										<div class="col-md-6 left">Copyright © 2019. All rights reserved.</div>
-										<div class="col-md-6 right">
-											<p>
-												<a href="#"><i class="fab fa-twitter"></i></a>
-												<a href="#"><i class="fab fa-facebook-square"></i> </a>
-												<a href="#"><i class="fab fa-instagram"></i></a>
-											</p>
-										</div>
-									</div>
+						</div>
+						<div class="container">
+							<div class="copy-soc">
+								<div class="copy">
+									Copyright © <script>document.write(new Date().getFullYear());</script>. All rights reserved.
+								</div>
+								<div class="soc">
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-facebook-square"></i> </a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
 								</div>
 							</div>
-					</section>
+						</div>
+					</footer>
 				</section>
 					<!-- End contact-->
 			</div>	
@@ -504,6 +498,8 @@
 		<!-- End parallax-wrapper-->
 	<script src="./assets/js/jquery-3.3.1.min.js"></script>
 	<script src="./assets/js/bootstrap.min.js"></script>
+	<!-- <script src="./assets/js/fontawesome.all.js"></script> -->
+	<script src="./assets/js/fontawesome.all.min.js"></script>
 	<script src="./assets/js/index.js"></script>
 </body>
 </html>
