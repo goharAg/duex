@@ -234,11 +234,25 @@ h2{
 
 
 .service3{
-	margin-right:20px;	
+	margin-right:20px;
 	float:left;
 }
-.service_text{
+/*.service_text{
 	margin-bottom: 80px;
+}*/
+
+.clients{
+	background-color:#FAFAFA;
+	padding-top:30px;
+	padding-bottom: 30px;
 }
-
-
+.clients .brands{
+	padding-top:30px;
+}
+.sec2 {
+	margin-bottom: 20px;
+}
+.testimonials{
+	background-color:#FAFAFA;
+	text-align: center;
+}
