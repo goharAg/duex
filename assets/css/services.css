@@ -258,30 +258,45 @@ h2{
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-.case div{
+/*.case div{
 	background: rgba(27, 44, 88, 0.3);;
 	
-}
+}*/
 .case{
 	margin-top:30px;
 	margin-bottom: 30px;
 
 }
-.brandimg h3{
+/*.brandimg h3{
+
 	position: absolute;
 	bottom:70px;
 	left:10px;
 	color: white;
 
+}*/
+.brandtext{
+	max-width: 100%;
+	position: absolute;
+	bottom:90px;
+	left:10px;
+	color: white;
 }
 
-.brandimg p{
+/*.brandimg .subtitle{
 	position: absolute;
-	bottom:40px;
+	bottom:20px;
 	left:10px;
 	color: white;
 
 }
+.brandingtext1{
+
+	position: absolute;
+	bottom:40px;
+	left:10px;
+	color: white;
+}*/
 .shadow{
 	position:absolute;
 	top:0px;
@@ -291,3 +306,6 @@ h2{
     max-height: 100%;
 
 }
+.brandingtext1{
+	display:none;
+	}

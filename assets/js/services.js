@@ -34,6 +34,15 @@ $( document ).ready(function() {
       }
     });
   };
+
+
+
+  $(".brandtext").mouseover(function(){
+            $(".brandingtext1").stop(true).slideDown();
+        });
+        $(".brandtext").mouseout(function(){
+            $(".brandingtext1").stop(true).slideUp();
+        });
   
 });
 
