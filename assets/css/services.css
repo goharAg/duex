@@ -283,20 +283,10 @@ h2{
 	color: white;
 }
 
-/*.brandimg .subtitle{
-	position: absolute;
-	bottom:20px;
-	left:10px;
-	color: white;
-
+.case h2{
+	text-align: center;
+	padding-bottom: 20px;
 }
-.brandingtext1{
-
-	position: absolute;
-	bottom:40px;
-	left:10px;
-	color: white;
-}*/
 .shadow{
 	position:absolute;
 	top:0px;
