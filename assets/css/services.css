@@ -258,29 +258,34 @@ h2{
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-.case div{
+/*.case div{
 	background: rgba(27, 44, 88, 0.3);;
 	
-}
+}*/
 .case{
 	margin-top:30px;
 	margin-bottom: 30px;
 
 }
-.brandimg h3{
+/*.brandimg h3{
+
 	position: absolute;
 	bottom:70px;
 	left:10px;
 	color: white;
 
-}
-
-.brandimg p{
+}*/
+.brandtext{
+	max-width: 100%;
 	position: absolute;
-	bottom:40px;
+	top:210px;
 	left:10px;
 	color: white;
+}
 
+.case h2{
+	text-align: center;
+	padding-bottom: 20px;
 }
 .shadow{
 	position:absolute;
@@ -291,3 +296,6 @@ h2{
     max-height: 100%;
 
 }
+.brandingtext1, .brandingtext2, .brandingtext3{
+	display:none;
+	}

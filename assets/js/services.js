@@ -34,6 +34,22 @@ $( document ).ready(function() {
       }
     });
   };
+
+
+
+  $(".brandtext").mouseover(function(){
+            let num = this.id;
+            $(".brandingtext"+num).stop(true).slideDown();
+        });
+        $(".brandtext").mouseout(function(){
+           let num = this.id;
+            $(".brandingtext"+num).stop(true).slideUp();
+        });
+
+        /* $(".brandtext").hover(function(){
+            let num = this.id;
+            $(".brandingtext"+num).stop(true).slideDown();
+        });*/
   
 });
 
