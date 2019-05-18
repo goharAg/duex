@@ -278,7 +278,7 @@ h2{
 .brandtext{
 	max-width: 100%;
 	position: absolute;
-	bottom:90px;
+	top:210px;
 	left:10px;
 	color: white;
 }
@@ -306,6 +306,6 @@ h2{
     max-height: 100%;
 
 }
-.brandingtext1{
+.brandingtext1, .brandingtext2, .brandingtext3{
 	display:none;
 	}

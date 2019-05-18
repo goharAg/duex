@@ -38,11 +38,18 @@ $( document ).ready(function() {
 
 
   $(".brandtext").mouseover(function(){
-            $(".brandingtext1").stop(true).slideDown();
+            let num = this.id;
+            $(".brandingtext"+num).stop(true).slideDown();
         });
         $(".brandtext").mouseout(function(){
-            $(".brandingtext1").stop(true).slideUp();
+           let num = this.id;
+            $(".brandingtext"+num).stop(true).slideUp();
         });
+
+        /* $(".brandtext").hover(function(){
+            let num = this.id;
+            $(".brandingtext"+num).stop(true).slideDown();
+        });*/
   
 });
 
