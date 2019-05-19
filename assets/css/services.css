@@ -299,3 +299,34 @@ h2{
 .brandingtext1, .brandingtext2, .brandingtext3{
 	display:none;
 	}
+
+
+.exp {
+	background-color: #FAFAFA;
+	display: flex;
+	height: 1000px;
+	line-height: 1.6;
+	font-size: 18px;
+
+}
+
+.exp .imgbx {
+	height: 500px;
+	width: 650px;
+	margin-left: auto;
+}
+
+.exp .content {
+	overflow: hidden;
+	margin-left: 40px;
+	align-self: center;
+}
+
+.exp p {
+	margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+	.exp  {
+    font-size: 15px;
+	}
