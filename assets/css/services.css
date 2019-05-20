@@ -265,14 +265,11 @@ h2{
 	margin-bottom: 30px;
 
 }
-/*.brandimg h3{
+.brandimg {
 
-	position: absolute;
-	bottom:70px;
-	left:10px;
-	color: white;
+	padding:0px;
 
-}*/
+}
 .brandtext{
 	max-width: 100%;
 	position: absolute;
@@ -356,4 +353,7 @@ margin: auto;
 
 .denis {
 	margin-top: 70px;
+}
+.forservice{
+	padding:0px;
 }
