@@ -354,6 +354,28 @@ margin: auto;
 .denis {
 	margin-top: 70px;
 }
-.forservice{
-	padding:0px;
+
+@media only screen and (max-width: 600px) {
+	.sec2  {
+    height: 1000px;
+
+	}
+}
+
+
+.clients {
+
+display: flex;
+justify-content: space-around;
+}
+
+.clients_img {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.our_clients {
+	background-color: #FAFAFA;
+	padding-bottom: 50px;
 }
