@@ -379,3 +379,33 @@ justify-content: space-around;
 	background-color: #FAFAFA;
 	padding-bottom: 50px;
 }
+
+.forservice {
+	padding: 0px;
+}
+
+
+
+
+.carousel-caption {
+top: 15%;
+}
+
+.carousel-caption h2, h3, p {
+	color: #000;
+}
+
+.carousel-indicators li {
+	border-color: #F0F0F0;
+	background-color: #F0F0F0;
+
+}
+
+.carousel-indicators .active {
+background-color: #C4C4C4;
+}
+
+.deni {
+	margin: auto;
+}
+
