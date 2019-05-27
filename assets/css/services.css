@@ -273,7 +273,7 @@ h2{
 .brandtext{
 	max-width: 100%;
 	position: absolute;
-	top:210px;
+	top:300px;
 	left:10px;
 	color: white;
 }
@@ -288,12 +288,17 @@ h2{
 	left:0px;
 	background: rgba(27, 44, 88, 0.3);
 	max-width: 100%;
-    max-height: 100%;
+  
 
 }
 .brandingtext1, .brandingtext2, .brandingtext3{
 	display:none;
+	color:white;
 	}
+.heading1, .heading2, .heading3, .subtitle1, .subtitle2, .subtitle3 {
+color:white;
+}
+
 
 
 .exp {
@@ -408,4 +413,5 @@ background-color: #C4C4C4;
 .deni {
 	margin: auto;
 }
+
 

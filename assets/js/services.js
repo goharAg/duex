@@ -39,11 +39,11 @@ $( document ).ready(function() {
 
   $(".brandtext").mouseover(function(){
             let num = this.id;
-            $(".brandingtext"+num).stop(true).slideDown();
+            $(".brandingtext"+num).stop(true).slideDown('fast');
         });
         $(".brandtext").mouseout(function(){
            let num = this.id;
-            $(".brandingtext"+num).stop(true).slideUp();
+            $(".brandingtext"+num).stop(true).slideUp('fast');
         });
 
         /* $(".brandtext").hover(function(){
