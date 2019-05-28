@@ -390,10 +390,15 @@ justify-content: space-around;
 }
 
 
+.carousel-caption h2 { 
+ padding-bottom: 20px;
 
+}
 
-.carousel-caption {
-top: 15%;
+.carousel-caption { 
+ margin: 0;
+ padding-bottom: 50px;
+
 }
 
 .carousel-caption h2, h3, p {
@@ -414,4 +419,11 @@ background-color: #C4C4C4;
 	margin: auto;
 }
 
+.carousel .left  { 
+  background-image: none;
+}
+
+.carousel .right  { 
+  background-image: none;
+}
 
