@@ -50,6 +50,11 @@ $( document ).ready(function() {
             let num = this.id;
             $(".brandingtext"+num).stop(true).slideDown();
         });*/
+
+
+
+
+        
   
 });
 
