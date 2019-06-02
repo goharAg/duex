@@ -385,6 +385,8 @@ justify-content: space-around;
 	padding-bottom: 50px;
 }
 
+
+
 .forservice {
 	padding: 0px;
 }
@@ -426,4 +428,24 @@ background-color: #C4C4C4;
 .carousel .right  { 
   background-image: none;
 }
+
+.carousel
+{
+    height: 400px;
+    
+}
+
+.carousel .item
+{
+    height: 400px;
+    
+}
+
+.carousel-inner > .item > img
+{
+    position: absolute;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+} 
 
