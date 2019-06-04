@@ -255,19 +255,50 @@
 
 
         <div class="col-md-4">
-          <div class="d-flex justify-content-center my-4">
+        <!--  <div class="d-flex justify-content-center my-4">
               <span class="font-weight-bold blue-text mr-2 mt-1">Budget</span>
-              <form class="range-field w-25">
-                <input id="ex1" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
-              </form>
+              <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+              </div>
+              
               <span class="font-weight-bold blue-text ml-2 mt-1">$10,500</span>
           </div>
+          <br>
+
            <div class="d-flex justify-content-center my-4">
               <span class="font-weight-bold blue-text mr-2 mt-1">Deadline</span>
-              <form class="range-field w-25">
-                <input id="ex1" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
-              </form>
-              <span class="font-weight-bold blue-text ml-2 mt-1">5 Months</span>
+               <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+              </div>
+              <span class="font-weight-bold blue-text ml-2 mt-1">5 Months</span>            
+
+
+          </div>
+          <br>
+
+
+
+
+          <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+          </div>
+
+          <br>-->
+
+           <div class="slidecontainer">
+             <span id="spanTet" class="">Budget</span>
+            <input type="range" min="10" max="100" value="10" class="slider " id="myRange">
+             <span id="spanText" class="">10$</span>
+          </div>
+
+        
+          
+           <br>
+
+            <div class="slidecontainer">
+             <span id="spanTet" class="">Deadline</span>
+            <input type="range" min="1" max="12" value="1" class="slider " id="myRange">
+             <span id="spanText" class="">1 Months</span>
           </div>
 
          <button type="button" class="btn btn-primary">Order</button>
