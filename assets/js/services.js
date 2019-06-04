@@ -46,17 +46,42 @@ $( document ).ready(function() {
             $(".brandingtext"+num).stop(true).slideUp('fast');
         });
 
-        /* $(".brandtext").hover(function(){
-            let num = this.id;
-            $(".brandingtext"+num).stop(true).slideDown();
-        });*/
+      $('#myRange').on('change', handleChange);
+
+        function handleChange () {
+
+      let theValue = $('#myRange').val();
+      let minValue = $('#myRange').attr("min");
+      let maxValue = $('#myRange').attr("max");
+      let value = (theValue - minValue)/(maxValue - minValue);
+
+      $("#spanText").text(theValue + '$');
+
+      console.log(theValue);
+
+      $('#myRange').css(' backgroundImage' , '-webkit-gradient(linear, left top, right top, ' 
+        + 'color-stop(' + value +' , #047a9c),'   
+        + 'color-stop(' + value + ', #c7c7c7)'+ ')');
+     }
 
 
+
+
+
+
+
+
+    
+
+  
 
 
         
   
 });
+
+
+
 
 
 
