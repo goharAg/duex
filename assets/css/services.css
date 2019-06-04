@@ -246,6 +246,10 @@ h2{
 	padding-top:30px;
 	padding-bottom: 30px;
 }
+.our_clients{
+	margin-bottom:30px;
+	margin-top:30px;
+}
 .clients .brands{
 	padding-top:30px;
 }
@@ -296,6 +300,7 @@ color:white;
 	display: flex;
 	height: 1000px;
 	font-size: 18px;
+	margin-bottom: 30px;
 
 }
 
@@ -333,8 +338,18 @@ color:white;
 }
 
 .rec {
-	height: 600px;
+	
 	width: 610px;
+}
+
+.image_we img{
+	width: 602px;
+	height: 610px;
+	padding-left: 30px;
+    margin-top: 20px;
+}
+.solve_sec{
+	padding-top:60px;
 }
 
 
@@ -344,6 +359,10 @@ margin: auto;
 
 .solve h2, p {
 	margin-bottom: 30px;
+}
+.solve_sec h2 {
+font-size: 40px;
+font-weight: bold;
 }
 
 .denis {
@@ -478,6 +497,12 @@ background-color: #C4C4C4;
 .testimonials .carousel .item
 {
     height: 400px;
+    
+}
+
+.testimonials .carousel-caption
+{
+    text-shadow:none;
     
 }
 
