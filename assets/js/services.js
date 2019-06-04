@@ -37,13 +37,13 @@ $( document ).ready(function() {
 
 
 
-  $(".brandtext").mouseover(function(){
+  $(".brandimg").mouseover(function(){
             let num = this.id;
-            $(".brandingtext"+num).stop(true).slideDown('fast');
+            $(".brandingtext"+num).stop(true).slideDown();
         });
-        $(".brandtext").mouseout(function(){
+        $(".brandimg").mouseout(function(){
            let num = this.id;
-            $(".brandingtext"+num).stop(true).slideUp('fast');
+            $(".brandingtext"+num).stop(true).slideUp();
         });
 
       $('#myRange').on('change', handleChange);
