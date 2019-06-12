@@ -58,8 +58,31 @@ $( document ).ready(function() {
 
 
 $('.item').click(function(){
-    $(this).toggleClass('fullscreen'); 
+    
+    $(this).addClass('fullscreen'); 
+    $('.brandimg').css('display', 'none');
+  
+    $("<a></a>").appendTo(this).addClass("link");
+     
+    $( "<h2>Back</h2>" ).appendTo( ".link").addClass("back");
+
+
 });
+
+
+$('.link').click(function(){
+    $(".item").removeClass('fullscreen'); 
+    $('.brandimg').css('display', 'block');
+     
+   
+
+
+});
+
+
+
+
+
 
 
   
