@@ -263,10 +263,19 @@ h2{
 
 
 .brandimg {
-
+	background-image: url("C:/Users/Gohar/Desktop/duex_homepage/assets/images/large_water.jpg");
+	 background-position: 75% 20%; 
+	height:100vh;
+	cursor: pointer;
 	padding:0px;
+	height:;
 
 }
+
+
+
+
+
 .brandtext{
 	max-width: 100%;
 	position: absolute;
@@ -281,11 +290,12 @@ h2{
 
 
 .shadow{
+	object-fit:fill;
 	position:absolute;
 	top:0px;
 	left:0px;
 	background: rgba(27, 44, 88, 0.3);
-	max-width: 100%;
+	
   
 
 }
@@ -458,6 +468,7 @@ background-color: #C4C4C4;
 	margin-top:30px;
 	margin-bottom: 30px;
 }
+
 
 
 
