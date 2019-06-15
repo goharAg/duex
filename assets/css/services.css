@@ -649,3 +649,10 @@ h1{
     left: 0; 
 
  }
+
+ .fulscrn h2 {
+ 	font-size: 120px;
+ 	font-weight: bold;
+ 	
+ margin-top:250px;
+ }
