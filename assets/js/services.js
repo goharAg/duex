@@ -44,16 +44,11 @@ $( document ).ready(function() {
         $(".brandimg").mouseout(function(){
            let num = this.id;
             $(".brandingtext"+num).stop(true).slideUp('fast');
-        });
-
-       
-
-
-
-
-      
+        });      
   
-});
+
+
+
 
 $('.item').click(function(){
   let go_to_url = "C:/Users/Gohar/Desktop/duex_homepage/ourCaseOne.html";    
@@ -65,31 +60,11 @@ $('.maint').fadeOut('slow');
 
 
 
-// $('.item').click(function(){
-    
-//     $(this).addClass('fullscreen'); 
-//     $('.brandimg').css('display', 'none');
-  
-//     $("<a></a>").appendTo(this).addClass("link");
-     
-//     $( "<h2>Back</h2>" ).appendTo( ".link").addClass("back");
-
-
-// });
-
-
-// $('.link').click(function(){
-//     $(".item").removeClass('fullscreen'); 
-//     $('.brandimg').css('display', 'block');
-     
-   
-
-
-// });
 
 
 
 
+});
 
 
 
