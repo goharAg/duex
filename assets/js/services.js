@@ -55,29 +55,37 @@ $( document ).ready(function() {
   
 });
 
-
-
 $('.item').click(function(){
-    
-    $(this).addClass('fullscreen'); 
-    $('.brandimg').css('display', 'none');
-  
-    $("<a></a>").appendTo(this).addClass("link");
-     
-    $( "<h2>Back</h2>" ).appendTo( ".link").addClass("back");
-
+  let go_to_url = "C:/Users/Gohar/Desktop/duex_homepage/ourCaseOne.html";    
+ // window.open(go_to_url, '_blank');
+document.location.href = go_to_url;
+$('.maint').fadeOut('slow');
 
 });
 
 
-$('.link').click(function(){
-    $(".item").removeClass('fullscreen'); 
-    $('.brandimg').css('display', 'block');
+
+// $('.item').click(function(){
+    
+//     $(this).addClass('fullscreen'); 
+//     $('.brandimg').css('display', 'none');
+  
+//     $("<a></a>").appendTo(this).addClass("link");
+     
+//     $( "<h2>Back</h2>" ).appendTo( ".link").addClass("back");
+
+
+// });
+
+
+// $('.link').click(function(){
+//     $(".item").removeClass('fullscreen'); 
+//     $('.brandimg').css('display', 'block');
      
    
 
 
-});
+// });
 
 
 
