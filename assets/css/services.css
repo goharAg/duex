@@ -626,33 +626,32 @@ h1{
 
 
 
+
 /*.item.fullscreen{
 	background-image: url("C:/Users/Gohar/Desktop/duex_homepage/assets/images/large_water.jpg");
 	background-size: cover;
-    z-index: 9999; 
-    width: 100%; 
-    height: 100%; 
-    position: fixed; 
-    top: 0; 
-    left: 0; 
+
+
+
 
  }*/
 
- .fulscrn{
-	background-image: url("C:/Users/Gohar/Desktop/duex_homepage/assets/images/large_water.jpg");
-	background-size: cover;
-    z-index: 9999; 
-    width: 100%; 
-    height: 100%; 
-    position: fixed; 
-    top: 0; 
-    left: 0; 
+ 
+ 
 
- }
+ @media only screen and (max-width: 600px) {
+	.fa-arrow-circle-right  {
+    font-size: 30px;
+    margin-right:  -50px;
+    margin-bottom: -40px;
+	}
 
- .fulscrn h2 {
- 	font-size: 120px;
- 	font-weight: bold;
- 	
- margin-top:250px;
- }
+	
+
+@media only screen and (max-width: 600px) {
+	
+	.brandtext {
+		top: -1000px;
+	}
+}
+
