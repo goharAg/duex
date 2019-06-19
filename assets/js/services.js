@@ -50,17 +50,13 @@ $( document ).ready(function() {
 
 
 
-$('.item').click(function(){
+$('.item1').click(function(){
   let go_to_url = "C:/Users/Gohar/Desktop/duex_homepage/ourCaseOne.html";    
  // window.open(go_to_url, '_blank');
 document.location.href = go_to_url;
 $('.maint').fadeOut('slow');
 
 });
-
-
-
-
 
 
 
